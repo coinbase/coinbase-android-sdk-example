@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coinbase SDK Example</string>
+    <string name="redirecting">Redirecting to authorization...</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
