@@ -19,7 +19,7 @@ Building the app is only supported in [Android Studio](http://developer.android.
 
 In app/build.gradle:
 ```gradle
-compile ('com.coinbase.android:coinbase-android-sdk:1.0.0-SNAPSHOT')
+compile ('com.coinbase.android:coinbase-android-sdk:1.0.1)
 ```
 
 ### Redirecting the user to Coinbase for authorization
