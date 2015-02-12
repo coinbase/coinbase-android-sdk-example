@@ -33,7 +33,7 @@ android {
     }
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -42,5 +42,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile ('org.roboguice:roboguice:2.0')
-    compile ('com.coinbase.android:coinbase-android-sdk:1.0.0-SNAPSHOT')
+    compile ('com.coinbase.android:coinbase-android-sdk:1.0.1')
 }
